@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#009688"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="278dp"
+        android:layout_height="278dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/appdtask" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:hint="enter your name"
+        android:textColor="#FFFFFF" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:hint="enter your age"
+        android:textColor="#FBFBFB" />
+
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="130dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center_horizontal"
+        android:text="submit" />
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
